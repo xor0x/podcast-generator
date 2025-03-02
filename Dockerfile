@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 # Combine RUN commands to reduce layers and ensure non-interactive installation
 RUN apt-get update && apt-get install -y \
-    python3.10 \
+    python3.12 \
     python3-pip \
     git \
     && apt-get clean \
